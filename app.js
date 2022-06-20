@@ -4,7 +4,6 @@
 const express = require("express")
 const path = require('path')
 const ejsMate = require('ejs-mate')
-const AppError = require('./views/AppError')
 const cookieParser = require('cookie-parser')
 const session = require('express-session')
 const bcrypt = require('bcrypt')
